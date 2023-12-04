@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page Cyber Security Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Slick Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+  </head>
+  <body>
+    
+    <!--Navbar start-->
+    <nav class="navbar navbar-expand-lg" style="background-color: #111927;">
+      <div class="container-fluid">
+        <div class="col-md-3">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/ctf/UU.png" alt="Logo" width="100" height="70" class="d-inline-block align-text-top">
+          </a>
+        </div>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-md-6" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white mx-3" aria-current="page" href="#" >Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3" href="#">Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3" href="#">Competetion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3" href="#">Pricepool</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3" href="#">Organizer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3" href="#">Sponsor</a>
+            </li>
+           
+            <a class="btn btn-primary" href="#" role="button" style="margin-left: 5%;width:50%;color:white;text-align: center;padding-left: 0px;">Register</a>
+            <a class="btn btn-primary" href="#" role="button"style="margin-left: 5%;width:50%;color:white;text-align:center;margin-top:0px;">Login</a> 
+            
+            
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+    <!--Navbar end-->
+    
+    <main>
+        
+      <!-- Hero Section - Home Page -->
+      <section id="hero" class="hero w-100 min-vh-100" data-aos="fade-up" data-aos-delay="200"style="background-image: url(cyberattackimg.jpeg);background-repeat: no-repeat;background-size: cover;margin-top:0px;background-position: center;">
+        <div class="container">
+            <div class="row">
+                <p class="text-white text-center" data-aos="fade-up" data-aos-delay="200" style="font-size: xx-large;margin-top: 400px;"><i>Welcome to Crack The Flag CTF Contest-2024</i></p>
+            </div>
+        </div>
+      </section>
+      <!-- End Hero Section -->
+
+      <!-- overview Section - Home Page -->
+      <section id="overview" class="Overview mt-3 w-auto"style="background-color: #141d2b;">
+
+        <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+            <div class="col-md-6 overview text-center">
+              <h1 style="color: white;margin-top:100px;">Overview</h1>
+            </div>
+
+            <div class="col-md-6 overview">
+            <p style="color: white;">Cyber security is the application of technologies, processes, 
+                and controls to protect systems, networks, programs, devices 
+                and data from cyber attacks. It aims to reduce the risk of cyber
+                attacks and protect against the unauthorised exploitation of systems, 
+                networks, and technologies. <br>
+                The world of Cyber Security revolves around the industry standard of confidentiality, 
+                integrity, and availability, or CIA. Privacy means data can be accessed only by authorized
+                parties; integrity means information can be added, altered, or removed only by authorized users;
+                and availability means systems, functions, and data must be available on-demand according to agreed-upon parameters. <br>
+                The main element of Cyber Security is the use of authentication mechanisms. For example, 
+                a user name identifies an account that a user wants to access, while a password is a mechanism that proves the user is who he claims to be.
+            </p>
+            </div>
+
+        </div>
+
+        </div>
+
+      </section>
+      <!-- End overview Section -->
+
+      <!-- timecutdown Section - Home Page -->
+      <section id="timecutdown" class="timecutdown mt-3 bg-black">
+
+        <div class="container" data-aos="fade-up">
+
+          <div class="row gy-4">
+
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-2 mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p id="days" class="mt-3"></p><p>Days</p></div>
+                    <div class="col-sm-2 mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p id="hours" class="mt-3"></p><p>Hours</p></div>
+                    <div class="col-sm-2 mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p id="minutes" class="mt-3"></p><p>Minutes</p></div>
+                    <div class="col-sm-2 mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p id="seconds" class="mt-3"></p><p>Second</p></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-sm-2  mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p class="mt-2">Event Type</p> <p style="font-size: 11px;">Capture The Flag</p> </div>
+                    <div class="col-sm-2  mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p class="mt-2">Event Type</p> <p style="font-size: 11px;">Capture The Flag</p> </div>
+                    <div class="col-sm-2  mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p class="mt-2">Event Type</p> <p style="font-size: 11px;">Capture The Flag</p> </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-sm-2  mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p class="mt-2">Event Type</p> <p style="font-size: 11px;">Capture The Flag</p> </div>
+                    <div class="col-sm-2  mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p class="mt-2">Event Type</p> <p style="font-size: 11px;">Capture The Flag</p> </div>
+                    <div class="col-sm-2  mx-1 w-auto text-white border-black rounded-3"style="background-color: #111927;"><p class="mt-2">Event Type</p> <p style="font-size: 11px;">Capture The Flag</p> </div>
+                </div>
+                
+            </div>
+
+            <!--join us start-->
+            <div class="col-md-4 mt-4 pt-3 mb-5 text-center text-white border-black rounded-3"style="background-color: #111927;">
+                <h2>ABOUT THE EVENT <br> HUNT-2024 <br>January 20th - 29th, 2024</BR></h2>
+                <p>Please read the instructions carefully and fill out the form.</p>
+                <p>PRE-QUALIFY ROUND</p>
+                <p>Saturday, January 20, 2024</p>
+                <p>FINAL ROUND</p>
+                <p>Monday, January 29, 2024</p>
+                <button class="btn btn-success mb-5">
+                    JoinUs
+                </button>
+            </div>      
+          </div>
+        </div>
+      </section>
+      <!-- End timecutdown Section -->
+
+      <!-- About Section - Home Page -->
+      <section id="about" class="about mt-lg-5"style="background-color: #111927;">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-xl-center gy-5">
+    
+            <div class="col-xl-5 content">
+              <div class="jumbotron bg-transparent mb-0 pt-3 radius-0">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-12">
+                      <h1 class="display-3 bold color_white content__title text-center">
+                        <span style="margin-left: 0px;color:skyblue;"class="color_danger">ABOUT
+                        THE</span><span style="color:skyblue;margin-left: 10px;">EVENT<span class="vim-caret">&nbsp;</span>
+                      </h1>
+                      <p class="text-grey text-spacey text-center hackerFont lead"style="color:white">
+                        A community of like minded individuals who support cybersecurity and FOSS.
+                      </p>      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-7">
+              <div class="row gy-4 icon-boxes">
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box bg-white rounded-3 px-3 pt-3">
+                    <h5 class="bold color_white pt-3">
+                      What is Capture the Flag?
+                  </h5>
+                  <p class="mb-4">A capture the flag (CTF) contest is a special kind of cybersecurity competition designed to
+                  challenge its participants to solve computer security problems and/or capture and defend
+                  computer systems. The game consists of a series of challenges where participants
+                  must reverse engineer, break, hack, decrypt, or do whatever it takes to solve the challenge.
+                  The challenges are all set up with the intent of being hacked, making it an excellent, legal
+                  way to get hands-on experience.</p>
+                    
+                  </div>
+                </div> <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box mt-0 bg-white rounded-3 px-3 pt-3">
+                    <h5 class="bold color_white pt-3">
+                      About Crack The Flag
+                  </h5>
+                  <p class="mb-4">Crack The Flag is a sub event of PICT's <a href="https://pictinc.org">Impetus and
+                      Concepts</a> mega event where students partcipate from all over the world!<br> Out aim
+                  is about spreading the importance of cybersecurity in today's
+                  community. Each and every person should be aware of different vulnerabilities in systems as
+                  well as how to protect onselves agains cyber attacks.<br> We believe gamification is the best
+                  technique to teach oneself about cybersecurity.
+                  o get hands-on experience.</p>
+                  
+                  </div>
+                </div> <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box mt-1 bg-white rounded-3 px-3 pt-3">
+                    <h5 class="bold color_white pt-3">
+                      Who can play Crack The Flag
+                  </h5>
+                  <p class="mb-2">Crack The Flag is mainly focused at students who are undergraduates.</p>
+                  </div>
+                </div> <!-- End Icon Box -->
+
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box mt-1 bg-white rounded-3 px-3 pt-3">
+                    <h5>WHY JOIN</h5>
+                    <p style="font-size: 13px;">Glory, learning, prizes</p>
+                    <div>
+                      <h5>Hack amazing content</h5>
+                      <p style="font-size: 10px;">Learn with the best hacking content from the Bangladeshi CTF community!</p>
+                    </div>
+                    <div>
+                      <h5 >Win the best prizes</h5>
+                      <p style="font-size: 10px;">A never-seen-before prize list is awaiting the top teams!</p>
+                    </div>
+                    <div>
+                      <h5>Climb the scoreboard</h5>
+                      <p style="font-size: 10px;">Achieve eternal glory and show your team is the best!</p>
+                    </div>
+                    <div>
+                      <h5>Get CTF-Certified</h5>
+                      <p style="font-size: 10px;">For all players with 200+ points.</p>
+                    </div>
+                  </div>
+                </div> <!-- End Icon Box -->
+
+              </div>
+            </div>
+
+            </div>
+          </div>
+          
+      </section>
+      <!-- End About Section -->
+
+      <!--Section competition - Home Page -->
+      <section id="competetion" class="bg-black">
+          <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+          
+              <div class="row gy-4">
+                  <h3 style="color:skyblue;">COMPETITION CATEGORY</h3>
+                  <p style="color:skyblue;margin-top: -10px;">Challenges for You</p>
+
+                  <div class="col-lg-3 col-md-6 col-xl-2 col-md-3 col-md-6 col-md-4">
+                      <div class="text-center pb-3 mx-1 pt-2 my-1 text-white rounded-3"style="background-color: #111927;">
+                          <p class="mt-3">Web Exploitation</p> 
+                      </div>
+                  </div>
+                  <!-- End Stats Item -->
+      
+                  <div class="col-lg-3 col-md-6 col-xl-2 col-md-3 col-md-6 col-md-4">
+                      <div class="text-center pb-3 mx-1 pt-2 my-1 text-white rounded-3"style="background-color: #111927;">
+                          <p class="mt-3">Digital Forensic</p> 
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-3 col-md-6 col-xl-2 col-md-3 col-md-6 col-md-4">
+                      <div class="text-center pb-3 mx-1 pt-2 my-1 text-white rounded-3"style="background-color: #111927;">
+                          <p class="mt-3">Cryptography</p> 
+                      </div>
+                  </div>
+              
+              </div>
+              
+              <div class="row gy-4 mt-1 mb-0">
+                  <div class="col-lg-3 col-md-6 col-xl-2 col-md-3 col-md-6 col-md-4">
+                      <div class="text-center pb-3 mx-1 pt-2 my-1 text-white rounded-3"style="background-color: #111927;">
+                          <p class="mt-3">Steganography</p> 
+                      </div>
+                  </div>
+                  <!-- End Stats Item -->
+      
+                  <div class="col-lg-3 col-md-6 col-xl-2 col-md-3 col-md-6 col-md-4">
+                      <div class="text-center mb-5 pb-3 mx-1 pt-2 my-1 text-white rounded-3"style="background-color: #111927;">
+                          <p class="mt-3">Reverse Engineering</p> 
+                      </div>
+                  </div>  
+              </div>
+          </div>
+      </section>
+      <!-- End competition Stats Section -->
+
+      <!-- prices Section - Home Page -->
+      <section id="pricepool" class="pricepool"style="background-color:#141d2b;">
+
+        <div class="container section-title" data-aos="fade-up">
+          <h1 class="display-3 bold color_white content__title text-center"><span class="text-white">PRIZEPOOL</span><span class="vim-caret">&nbsp;</span></h1>
+          <p class="text-white text-spacey text-center hackerFont lead">
+              It's All About Prizes
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="row gy-4 mt-1">
+            <div class="d-flex">
+              <div class="row">
+                <img src="./assets/img/ctf/pricepool.jpg" alt="Prize Photo">
+              </div>
+            </div>
+          </div>
+          <!--row 1st price start-->
+
+          <div class="row mt-3 mx-0 w-100 display-3">
+            <div class="col-sm-4 column" style="background-color:#111927;">
+              <img class="w-25"src="./assets/img/ctf/1st price.png" alt="Prize Photo">
+            </div>
+            <div class="col-sm-4 text-center text-white column" style="background-color:#111927;">
+              <h2 class="mt-4 h6">2nd Place</h2>
+            </div>
+            <div class="col-sm-4 text-end text-white column" style="background-color:#111927;">
+              <h2 class="mt-4 h6">TK TBA</h2>
+            </div>
+          </div>
+          <!--row 1st price end-->
+          <!--row 2nd price start-->
+
+          <div class="row mt-3 mx-0 w-100 display-3">
+            <div class="col-sm-4 column" style="background-color:#111927;">
+              <img class="w-25"src="./assets/img/ctf/2nd price.png" alt="Prize Photo">
+            </div>
+            <div class="col-sm-4 text-center text-white column" style="background-color:#111927;">
+              <h2 class="mt-4 h6">2nd Place</h2>
+            </div>
+            <div class="col-sm-4 text-end text-white column" style="background-color:#111927;">
+              <h2 class="mt-4 h6">TK TBA</h2>
+            </div>
+          </div>
+          <!--row 2nd price end-->
+          <!--row 3rd price start-->
+
+          <div class="row mb-0 mt-3 mx-0 w-100 display-3">
+            <div class="col-sm-4 column" style="background-color:#111927;">
+              <img class="w-25"src="./assets/img/ctf/3rd price.png" alt="Prize Photo">
+            </div>
+            <div class="col-sm-4 text-center text-white column" style="background-color:#111927;">
+              <h2 class="mt-4 h6">2nd Place</h2>
+            </div>
+            <div class="col-sm-4 text-end text-white column" style="background-color:#111927;">
+              <h2 class="mt-4 h6">TK TBA</h2>
+            </div>
+          </div>
+          <!--row 3rd price end-->
+
+        </div>
+      </section>
+      <!-- End price Section -->
+
+      <!-- organizer Section - Home Page -->
+      <section id="organizer" class="organizer"style="background-color: #111927;">
+        <div class="container-fluid text-center" data-aos="fade-up"style="background-color: #111927;">
+          <h2 style="color:white;padding-top:20px;">Organized By</h2>
+          <p style="color:white"><i>UTTARA UNIVERSITY</i></p>
+        </div><!-- End Section Title -->
+
+        <div class="container-fluid"style="background-color: #111927;">
+
+          <div class="row gy-5 text-center text-white">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div>
+                <img class="w-75"src="./assets/img/ctf/Organizers picture/torikul.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center" style="color:white">
+                <h4 class="h4">Tariqul Islam</h4>
+                <span style="color:white">Event Director</span>
+                <p>President,Cyber Security Club</p>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img class="w-75"src="./assets/img/ctf/Organizers picture/Mishu.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center" style="color:white">
+                <h4 class="h4">Rakibul Hasan Mishu</h4>
+                <span style="color:white">Event Manager</span>
+                <p>General Secretary, Cyber Security Club</p>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img class="w-75" src="./assets/img/ctf/Organizers picture/Md. Asif Hossain.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4 class="h4">Md. Asif Hossain</h4>
+                <span style="color:white">Event Coordinator</span>
+                <p></p>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+              <div class="member-img">
+                <img class="w-75" src="./assets/img/ctf/Organizers picture/Deepro Das.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4 class="h4">Deepro Das</h4>
+                <span style="color:white">Event Coordinator</span>
+                <p></p>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img class="w-75" src="./assets/img/ctf/Organizers picture/Bakhtiar.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4 class="h4">Bakhtiar</h4>
+                <span style="color:white">Event Coordinator</span>
+                <p></p>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img class="w-75" src="./assets/img/ctf/Organizers picture/Hasibul Hasan Shawon.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4 class="h4">Hasibul Hasan Shawon</h4>
+                <span style="color:white">Technical Director</span>
+                <p></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img class="w-75" src="./assets/img/ctf/Organizers picture/alwoares.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4 class="h4">Alwoares</h4>
+                <span style="color:white">Event Coordinator</span>
+                <p></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img class="w-75" src="./assets/img/ctf/Organizers picture/Sadikul Islam Akash.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4 class="h4">Sadikul Islam Akash</h4>
+                <span style="color:white">Event Coordinator</span>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img class="w-75" src="./assets/img/ctf/Organizers picture/Raufin Ahamed Odoy.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4 class="h4">Jubayer Ahmed Shawon</h4>
+                <span style="color:white">Voluntear Coordinator</span>
+                <p class="p mb-5">Organizing Secretary,Cyber Security Club</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img class="w-75" src="./assets/img/ctf/Organizers picture/Jubayer Ahmed Shawon.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4 class="h4">Jubayer Ahmed Shawon</h4>
+                <span style="color:white">Voluntear Coordinator</span>
+                <p class="p mb-5">Organizing Secretary,Cyber Security Club</p>
+              </div>
+            </div>
+            
+            <!-- End Team Member -->
+
+          </div>
+
+        </div>
+
+      </section>
+
+ 
+      <!-- Sponser Section1 start- Home Page -->
+      <section class="sponser" id="sponser"style="background-color:black;">
+        <h1>Sponsor By</h1>
+        <p style="color: white;text-align: center;">Those Supporting Crack The Flag-2024</p>
+        <h4>Technical Partner</h4> 
+        <div class="row" id="sponser-row">
+          <div class="container  w-100">
+            <section class="logo-carousel vh-50 slider" data-arrows="true">
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/fb.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/microsoft.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/google.png"></div>
+            </section>
+          </div>
+        </div>
+
+        <h4>Platinum Sponsor</h4> 
+        <div class="row" id="sponser-row">
+          <div class="container w-100">
+            <section class="logo-carousel vh-50 slider" data-arrows="true">
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/fb.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/microsoft.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/messenger.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/amazon.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/whatsapp.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/tesla.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/youtube.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/google.png"></div>
+            </section>
+          </div>
+        </div>
+
+        <h4>Gold Sponsor</h4> 
+        <div class="row" id="sponser-row">
+          <div class="container w-100">
+            <section class="logo-carousel vh-50 slider" data-arrows="true">
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/google.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/youtube.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/tesla.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/whatsapp.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/amazon.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/messenger.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/microsoft.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/fb.png"></div>
+            </section>
+          </div>
+        </div>
+
+        <h4>Silver Sponsor</h4> 
+        <div class="row" id="sponser-row">
+          <div class="container w-100">
+            <section class="logo-carousel vh-50 slider" data-arrows="true">
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/amazon.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/whatsapp.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/messenger.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/microsoft.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/tesla.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/youtube.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/fb.png"></div>
+              <div class="slide mt-5"><img src="./assets/img/ctf/sponserlist/google.png"></div>
+            </section>
+          </div>
+        </div>
+      </section>  
+      <!-- Sponser Section1 start- Home Page -->
+    </main>
+
+
+    <!--footer start-->
+    <section style="margin-top:-50px;background-color: #111927;">
+      <!--footer start-->
+      <footer class="text-center text-lg-start text-muted" style="background-color: #111927;">
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mt-2 mx-auto mb-4 text-white">
+                <!-- Content -->
+                <img src="./assets/img/ctf/UU.png" class="w-50"alt="">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Uttara University
+                </h6>
+                <p>
+                  The bachelor program B.Sc. (Eng.) in Computer Science & Engineering, offers the students a strong 
+                  background in the core technical areas and exposure to the cutting-edge technologies where their 
+                  engineering contribution will be utilized. 
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-3 text-white">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 mx-0">Contact Us</h6>
+                <p><i class="fas fa-home mx-0"></i> Plot-5,Dour,Turag</p>
+                <p><i class="fas fa-home mx-0"></i> Uttara,Dhaka, Bangladesh</p>
+                <p>
+                  <i class="fas fa-envelope mx-0"></i>
+                  support@cracktheflag.com
+                </p>
+                <p><i class="fas fa-phone mx-0"></i>01797569923</p>
+                <p><i class="fas fa-print mx-0"></i></p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4 text-white" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright by Cyber Security Club:
+          <a class="text-reset fw-bold" href="#">Tusher</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!--footer start-->
+    </section>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--page script start-->
+    <script src="./assets/js/timecutdown.js"></script>
+    <script src="./assets/js/sponsor.js"></script>
+    <script src="./assets/js/animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script> 
+
+  
+  </body>
+</html>
